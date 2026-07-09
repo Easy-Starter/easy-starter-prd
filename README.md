@@ -8,49 +8,170 @@
 ![Markdown](https://img.shields.io/badge/Docs-Markdown-111827?style=for-the-badge&logo=markdown)
 ![License MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
-A bilingual template repository for writing PRDs, Design Briefs, and Spec-Driven Development artifacts before implementation begins.
+> “What do we build for, if not to lessen each other’s hardship?”
 
-## Goal
+## What is this?
 
-Make documentation the single source of truth for product, design, engineering, QA, launch, and learning.
+A starter kit for turning product ideas into clear PRDs, design briefs, specs, plans, and implementation-ready tasks.
 
-## Flow
+Before the first line of code, this repository helps your team answer the questions that actually shape a product:
 
-Idea → Product One-Pager → Research → PRD → Design Brief → UX/UI Spec → Technical Brief → Feature Spec → Plan → Test-first Tasks → Implementation → Release → Post-launch Learning
+- **What are we building?**
+- **Who are we building it for?**
+- **Why does it matter?**
+- **What does success look like?**
+- **What should the designer, developer, QA, and AI coding agent follow?**
 
-## Structure
+The goal is simple: **make the docs the single source of truth, not scattered chats, vague memories, or hidden assumptions.**
+
+---
+
+## Why this exists?
+
+Most projects fail because the team starts building before the problem, user, scope, edge cases, and success criteria are clear.
+
+**Easy Starter PRD** gives you a repeatable workflow for moving from a raw idea to a product-ready specification. It is useful for solo builders, freelancers, startups, product teams, and AI-first development workflows.
+
+---
+
+## What you can create with this repository?
+
+- Product One-Pagers
+- User Research Notes
+- Personas and JTBD docs
+- PRDs
+- Design Briefs
+- UX/UI Specifications
+- Technical Briefs
+- API and Data Specs
+- Feature Specs
+- Implementation Plans
+- Test-first Task Lists
+- Launch Plans
+- Post-launch Learning Notes
+
+---
+
+## The workflow
+
+Each step turns uncertainty into something easier to discuss, review, design, build, test, and improve.
 
 ```text
-templates/en/                 English product/design/engineering templates
-templates/fa/                 Persian product/design/engineering templates
-specs/_feature-template/       Spec-driven feature artifact template
-specs/features/                Real feature specs go here
-prompts/en/                    English AI prompts
-prompts/fa/                    Persian AI prompts
-checklists/                   Review gates
-examples/                     Filled examples
-.github/                      Issue and PR templates
+Idea
+  ↓
+Product One-Pager
+  ↓
+Research
+  ↓
+PRD
+  ↓
+Design Brief
+  ↓
+UX/UI Spec
+  ↓
+Technical Brief
+  ↓
+Feature Spec
+  ↓
+Plan
+  ↓
+Test-first Tasks
+  ↓
+Implementation
+  ↓
+Release
+  ↓
+Post-launch Learning
 ```
+
+---
+
+## Repository structure
+
+```text
+templates/                  English product, design, and engineering templates
+specs/_feature-template/       Reusable feature folder for spec-driven development
+specs/features/                Real feature specs live here
+prompts/                    English prompts for product, design, and coding agents
+checklists/                    Review gates before moving forward
+examples/                      Filled examples for faster understanding
+.github/                       Issue and pull request templates
+```
+
+---
+
+## Recommended starting point
+
+Start here:
+
+```text
+templates/en/00-product-one-pager.md
+```
+
+Then continue step by step. Do not rush into implementation too early. A few extra minutes in the docs can save hours of rework later.
+
+---
 
 ## Requirement IDs
 
-Use stable IDs everywhere:
+Use stable IDs across PRDs, specs, tasks, commits, pull requests, and test cases.
 
-- `GOAL-001` product/business goals
-- `USER-001` user segments/personas
-- `REQ-001` functional requirements
-- `NFR-001` non-functional requirements
-- `AC-001` acceptance criteria
-- `EVT-001` analytics events
-- `RISK-001` risks
-- `DEC-001` decisions
+| ID         | Meaning                                |
+| ---------- | -------------------------------------- |
+| `GOAL-001` | Product or business goal               |
+| `USER-001` | User segment, persona, or actor        |
+| `REQ-001`  | Functional requirement                 |
+| `NFR-001`  | Non-functional requirement             |
+| `AC-001`   | Acceptance criterion                   |
+| `EVT-001`  | Analytics event                        |
+| `RISK-001` | Risk, assumption, or open question     |
+| `DEC-001`  | Product, design, or technical decision |
 
-## How to use
+This makes every implementation decision traceable back to the product intent.
 
-1. Start with `templates/en/00-product-one-pager.md` or `templates/fa/00-product-one-pager.fa.md`.
-2. Use prompts in `prompts/` to clarify the idea and fill missing context.
-3. Write the PRD and Design Brief.
-4. Create one feature folder under `specs/features/001-feature-name/`.
-5. Copy files from `specs/_feature-template/`.
-6. Ask your coding agent to create `plan.md` and `tasks.md` from the spec.
-7. Every PR should cite requirement IDs.
+---
+
+## How to use this repository?
+
+1. Clone or use this repository as a template.
+2. Fill the Product One-Pager first.
+3. Use the prompts in `prompts/` to clarify missing context.
+4. Write the PRD and Design Brief.
+5. Create a new feature folder under `specs/features/001-feature-name/`.
+6. Copy the files from `specs/_feature-template/` into that feature folder.
+7. Turn the feature spec into `plan.md` and `tasks.md`.
+8. Ask your coding agent to implement only what is written in the spec and tasks.
+9. Make every pull request reference the related requirement IDs.
+10. After release, document what you learned and update the source of truth.
+
+---
+
+## Working with AI coding agents
+
+This repo is designed to work well with tools like coding agents, AI IDEs, and spec-driven development workflows.
+
+A good rule:
+
+> Do not ask the agent to “build the app.”  
+> Ask the agent to implement a specific feature spec with clear requirements, acceptance criteria, tests, and constraints.
+
+That small shift makes AI-assisted development much more predictable, maintainable, and reviewable.
+
+---
+
+## Best for
+
+- Freelance projects
+- SaaS products
+- MVPs
+- Internal tools
+- AI-first development workflows
+- Product design handoff
+- Startup discovery and validation
+- Teams that want clearer collaboration
+
+---
+
+## License
+
+MIT License. Use it, adapt it, remix it, and make your product process a little smoother.
