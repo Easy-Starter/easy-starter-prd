@@ -5,7 +5,6 @@
 ![Design Brief](https://img.shields.io/badge/Design-Brief-7c3aed?style=for-the-badge)
 ![Spec Driven](https://img.shields.io/badge/Spec--Driven-Development-f97316?style=for-the-badge)
 ![AI Agent Ready](https://img.shields.io/badge/AI%20Agent-Ready-0ea5e9?style=for-the-badge)
-![Markdown](https://img.shields.io/badge/Docs-Markdown-111827?style=for-the-badge&logo=markdown)
 ![License MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
 ## این مخزن کد چی هست؟
