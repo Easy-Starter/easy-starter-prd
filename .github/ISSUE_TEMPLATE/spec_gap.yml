@@ -1,0 +1,22 @@
+name: Spec gap
+description: Report ambiguity, contradiction, or missing requirement
+title: "[Spec Gap]: "
+labels: ["spec-gap", "documentation"]
+body:
+  - type: input
+    id: artifact
+    attributes:
+      label: Artifact
+      placeholder: PRD / Design Brief / spec.md / plan.md
+    validations:
+      required: true
+  - type: textarea
+    id: gap
+    attributes:
+      label: Gap
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact

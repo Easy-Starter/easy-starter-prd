@@ -1,0 +1,32 @@
+name: Feature request
+description: Request a product feature with PRD/spec traceability
+title: "[Feature]: "
+labels: ["feature", "needs-prd"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What user or business problem does this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: users
+    attributes:
+      label: Target users
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome
+    validations:
+      required: true
+  - type: textarea
+    id: metrics
+    attributes:
+      label: Success metrics
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope / Out of scope
