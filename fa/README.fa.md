@@ -2,7 +2,6 @@
 
 <div dir="rtl">
 
-[![English README](https://img.shields.io/badge/README-English-blue?style=for-the-badge)](./README.md)
 ![قالب PRD](https://img.shields.io/badge/PRD-Template-2ea44f?style=for-the-badge)
 ![Design Brief](https://img.shields.io/badge/Design-Brief-7c3aed?style=for-the-badge)
 ![Spec Driven](https://img.shields.io/badge/Spec--Driven-Development-f97316?style=for-the-badge)

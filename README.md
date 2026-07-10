@@ -1,11 +1,12 @@
 # Easy Starter PRD
 
-[![Persian README](https://img.shields.io/badge/README-%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-blue?style=for-the-badge)](./README.fa.md)
 ![PRD Template](https://img.shields.io/badge/PRD-Template-2ea44f?style=for-the-badge)
 ![Design Brief](https://img.shields.io/badge/Design-Brief-7c3aed?style=for-the-badge)
 ![Spec Driven](https://img.shields.io/badge/Spec--Driven-Development-f97316?style=for-the-badge)
 ![AI Agent Ready](https://img.shields.io/badge/AI%20Agent-Ready-0ea5e9?style=for-the-badge)
 ![License MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
+
+[فارسی](./fa/README.fa.md)
 
 > “What do we build for, if not to lessen each other’s hardship?”
 
