@@ -1,4 +1,4 @@
-# Easy Starter PRD
+# Easy Starter Product Kit
 
 ![PRD Template](https://img.shields.io/badge/PRD-Template-2ea44f?style=for-the-badge)
 ![Design Brief](https://img.shields.io/badge/Design-Brief-7c3aed?style=for-the-badge)
@@ -20,22 +20,31 @@ Before the first line of code, this repository helps your team answer the questi
 - **Who are we building it for?**
 - **Why does it matter?**
 - **What does success look like?**
-- **What should the designer, developer, QA, and AI coding agent follow?**
+- **What should the designer, developer, QA, and AI agents follow?**
 
-The goal is simple: **make the docs the single source of truth, not scattered chats, vague memories, or hidden assumptions.**
+The goal is simple: **Make the docs the single source of truth, not scattered chats, vague memories, or hidden assumptions.**
 
 ---
 
-## Why this exists?
+## Why use this?
 
 Most projects fail because the team starts building before the problem, user, scope, edge cases, and success criteria are clear.
 
-**Easy Starter PRD** gives you a repeatable workflow for moving from a raw idea to a product-ready specification. It is useful for solo builders, freelancers, startups, product teams, and AI-first development workflows.
+**Easy Starter Product Kit** gives you a repeatable workflow for moving from a raw idea to a product-ready specification. It is useful for:
+
+- Solo founders
+- Freelancers building client products
+- SaaS and MVP development
+- Startup teams
+- Product designers and engineers
+- AI-first development workflows
+- Teams that want predictable and maintainable execution
 
 ---
 
 ## What you can create with this repository?
 
+- Opportunity scorecards and validation plans
 - Product One-Pagers
 - User Research Notes
 - Personas and JTBD docs
@@ -48,13 +57,15 @@ Most projects fail because the team starts building before the problem, user, sc
 - Implementation Plans
 - Test-first Task Lists
 - Launch Plans
+- Business models and pricing hypotheses
+- Figma file and prototype plans
 - Post-launch Learning Notes
 
 ---
 
 ## The workflow
 
-Each step turns uncertainty into something easier to discuss, review, design, build, test, and improve.
+Every step reduces uncertainty and creates a better foundation for the next stage.
 
 ```text
 Idea
@@ -89,10 +100,10 @@ Post-launch Learning
 ## Repository structure
 
 ```text
-templates/                  English product, design, and engineering templates
+templates/                     Product, design, and engineering templates
 specs/_feature-template/       Reusable feature folder for spec-driven development
-specs/features/                Real feature specs live here
-prompts/                    English prompts for product, design, and coding agents
+specs/features/                Real feature specs
+prompts/                       Prompts for product, design, and coding agents
 checklists/                    Review gates before moving forward
 examples/                      Filled examples for faster understanding
 .github/                       Issue and pull request templates
@@ -100,15 +111,18 @@ examples/                      Filled examples for faster understanding
 
 ---
 
-## Recommended starting point
+## How to use this repository?
 
-Start here:
-
-```text
-templates/en/00-product-one-pager.md
-```
-
-Then continue step by step. Do not rush into implementation too early. A few extra minutes in the docs can save hours of rework later.
+1. Clone or use this repository as a template.
+2. Fill the Product [One-Pager](./templates/00-product-one-pager.md) first.
+3. Use the prompts in [prompts/](./prompts/) to clarify missing context.
+4. Write the PRD and Design Brief.
+5. Create a new feature folder under `specs/features/001-feature-name/`.
+6. Copy the files from [specs/\_feature-template/](./specs/_feature-template/) into that feature folder.
+7. Turn the feature spec into `plan.md` and `tasks.md`.
+8. Ask your coding agent to implement only what is written in the spec and tasks.
+9. Make every pull request reference the related requirement IDs.
+10. After release, document what you learned and update the source of truth.
 
 ---
 
@@ -131,21 +145,6 @@ This makes every implementation decision traceable back to the product intent.
 
 ---
 
-## How to use this repository?
-
-1. Clone or use this repository as a template.
-2. Fill the Product One-Pager first.
-3. Use the prompts in `prompts/` to clarify missing context.
-4. Write the PRD and Design Brief.
-5. Create a new feature folder under `specs/features/001-feature-name/`.
-6. Copy the files from `specs/_feature-template/` into that feature folder.
-7. Turn the feature spec into `plan.md` and `tasks.md`.
-8. Ask your coding agent to implement only what is written in the spec and tasks.
-9. Make every pull request reference the related requirement IDs.
-10. After release, document what you learned and update the source of truth.
-
----
-
 ## Working with AI coding agents
 
 This repo is designed to work well with tools like coding agents, AI IDEs, and spec-driven development workflows.
@@ -155,20 +154,7 @@ A good rule:
 > Do not ask the agent to “build the app.”  
 > Ask the agent to implement a specific feature spec with clear requirements, acceptance criteria, tests, and constraints.
 
-That small shift makes AI-assisted development much more predictable, maintainable, and reviewable.
-
----
-
-## Best for
-
-- Freelance projects
-- SaaS products
-- MVPs
-- Internal tools
-- AI-first development workflows
-- Product design handoff
-- Startup discovery and validation
-- Teams that want clearer collaboration
+That small shift makes AI-first development much more predictable, maintainable, and reviewable.
 
 ---
 
